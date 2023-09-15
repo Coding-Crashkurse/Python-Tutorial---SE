@@ -1,10 +1,9 @@
-import os
 import sys
 
 import yaml
 
 
-def addNumbers(a, b):
+def addNumbers(a: int, b: int) -> int:
     result = a + b
     return result
 
